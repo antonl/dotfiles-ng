@@ -1,8 +1,16 @@
-# [tyrion/mr-template][]
+# [antonl/dotfiles-ng][]
 
-A template for [myrepos][] and [vcsh][].
 
-For a detailed explanation see:
+- Remap win to super
+- Install gnome-tweaks-tool
+	- disable capslock
+	- change window switcher shortcut to Super+Tab
+- Install ULauncher
+- Install keybase
+- Install vcsh
+- Install slack
+
+A bootstrap unix configuration based on
 [*Conquer your dotfiles with VCSH and MR*][blog-post].
 
 [tyrion/mr-template]: https://github.com/tyrion/mr-template/
