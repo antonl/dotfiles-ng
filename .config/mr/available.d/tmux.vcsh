@@ -1,0 +1,4 @@
+[$HOME/.config/vcsh/repo.d/tmux.git]
+order = 50
+# NOTE: put here the correct url for your repository
+checkout = vcsh clone -b tmux https://github.com/antonl/dotfiles-ng.git tmux
