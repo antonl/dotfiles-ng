@@ -1,10 +1,9 @@
-"
 " VIM Configuration 
 "
 
-" set shell to bash
-set shell=/bin/sh
-set encoding=utf-8
+" set shell to zsh
+"set shell=/usr/bin/zsh
+"set encoding=utf-8
 
 " Turn off compatible mode
 set nocompatible
@@ -112,7 +111,6 @@ set noswapfile
 set ffs=unix,dos,mac "Default file types
 syntax enable
 
-"set t_Co=256
 set background=dark
 
 " set Vim-specific sequences for RGB colors
