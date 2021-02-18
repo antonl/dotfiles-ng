@@ -1,0 +1,4 @@
+[$HOME/.config/vcsh/repo.d/unlearnid.git]
+order = 0 
+# NOTE: put here the correct url for your repository
+checkout = vcsh clone keybase://private/aloukian/unlearnid

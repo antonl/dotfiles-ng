@@ -1,0 +1,4 @@
+[$HOME/.config/vcsh/repo.d/starship.git]
+order = 15 
+# NOTE: put here the correct url for your repository
+checkout = vcsh clone -b starship https://github.com/antonl/dotfiles-ng.git starship
