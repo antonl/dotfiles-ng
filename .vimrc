@@ -1,7 +1,7 @@
 " VIM Configuration 
 "
 
-" set shell to zsh
+"set shell to zsh
 "set shell=/usr/bin/zsh
 "set encoding=utf-8
 
@@ -14,7 +14,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'ajh17/VimCompletesMe'
 Plug 'jacoborus/tender'
-Plug 'gh:itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'alok/notational-fzf-vim'
 
 call plug#end()
 
@@ -22,8 +24,8 @@ call plug#end()
 let mapleader=","
 
 " Quick editing of vimrc
-nnoremap <silent> <leader>ev :e $MYVIMRC<CR>
-nnoremap <silent> <leader>sv :so $MYVIMRC<CR>
+nnoremap <silent> <leader>ev :e ~/.vimrc<CR>
+nnoremap <silent> <leader>sv :so ~/.vimrc<CR>
 
 " No shift, I'm a wild man
 nnoremap ; :
@@ -132,3 +134,7 @@ set autoread
 set wildmenu "Turn on WiLd menu
 set cmdheight=2 "The commandbar height
 set magic "Set magic on, for regular expressions
+
+" Configure fzf notational
+let g:nv_search_paths = ['~/notes', './notes.md']
+nnoremap <silent> <leader>t :NV<CR>
