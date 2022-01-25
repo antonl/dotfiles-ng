@@ -4,4 +4,4 @@ order = 10
 checkout = 
      mkdir -p ~/.oh-my-zsh;
      export VCSH_BASE=$HOME/.oh-my-zsh;
-     vcsh clone "git@github.com:ohmyzsh/ohmyzsh.git" oh-my-zsh
+     vcsh clone "https://github.com/ohmyzsh/ohmyzsh.git" oh-my-zsh
