@@ -1,4 +1,4 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
 order = 10
 # NOTE: put here the correct url for your repository
-checkout = vcsh clone -b zsh https://github.com/antonl/dotfiles-ng.git zsh 
+checkout = vcsh clone -b zsh git@github.com:antonl/dotfiles-ng.git zsh 

@@ -1,4 +1,4 @@
 [$HOME/.config/vcsh/repo.d/alacritty.git]
 order = 50 
 # NOTE: put here the correct url for your repository
-checkout = vcsh clone -b alacritty https://github.com/antonl/dotfiles-ng.git alacritty
+checkout = vcsh clone -b alacritty git@github.com:antonl/dotfiles-ng.git alacritty

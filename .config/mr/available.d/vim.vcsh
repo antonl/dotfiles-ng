@@ -6,4 +6,4 @@ checkout =
   git clone --depth 1 --filter=blob:none \
       https://github.com/folke/lazy.nvim.git \
       $HOME/.local/share/nvim/site/pack/lazy/start/lazy.nvim
-  vcsh clone -b vim https://github.com/antonl/dotfiles-ng.git vim
+  vcsh clone -b vim git@github.com:antonl/dotfiles-ng.git vim
