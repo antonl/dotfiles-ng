@@ -10,7 +10,7 @@ DISABLE_AUTO_UPDATE="true"
 # much, much faster.
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=(conda nvim starship tmux)
+plugins=(conda starship tmux)
 
 ZSH_TMUX_AUTOSTART=true # start tmux by default
 
