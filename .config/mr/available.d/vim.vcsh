@@ -1,4 +1,9 @@
 [$HOME/.config/vcsh/repo.d/vim.git]
 order = 0
 # NOTE: put here the correct url for your repository
-checkout = vcsh clone -b vim https://github.com/antonl/dotfiles-ng.git vim
+checkout = 
+  # check out lazy package manager initially
+  git clone --depth 1 --filter=blob:none \
+      https://github.com/folke/lazy.nvim.git \
+      $HOME/.local/share/nvim/site/pack/lazy/start/lazy.nvim
+  vcsh clone -b vim https://github.com/antonl/dotfiles-ng.git vim
